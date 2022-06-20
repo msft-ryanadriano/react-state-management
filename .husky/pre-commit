@@ -6,7 +6,7 @@ echo '🏗️👷 Styling, testing and building your project before committing'
 # Check Prettier standards
 npm run check-format ||
 (
-    echo '🤢🤮🤢🤮 Its FOKING RAW - Your styling looks disgusting. 🤢🤮🤢🤮
+    echo '🤢🤮🤢🤮 Inconsistent code styling 🤢🤮🤢🤮
             Prettier Check Failed. Run npm run format, add changes and try commit again.';
     false;
 )
@@ -14,7 +14,7 @@ npm run check-format ||
 # Check ESLint Standards
 npm run check-lint ||
 (
-        echo '😤🏀👋😤 Get that weak shit out of here! 😤🏀👋😤 
+        echo '😤🏀👋😤 Code style check failed 😤🏀👋😤 
                 ESLint Check Failed. Make the required changes listed above, add changes and try to commit again.'
         false; 
 )
