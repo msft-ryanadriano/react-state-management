@@ -12,6 +12,8 @@ I created this project to show how we can add state-management into a React app.
 | 6   | Add UI components                    | -                                                                                                     | -                                                                               |
 | 7   | useDispatch hook                     | -                                                                                                     | -                                                                               |
 
-## Replace React-Redux with React Toolkit
+## Replace React-Redux with Redux Toolkit
 
-TDB
+Convert the `react-redux` implementation with `redux-toolkit`. TBD
+
+[link](https://redux-toolkit.js.org/)
